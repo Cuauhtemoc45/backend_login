@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://backend-login-ai13.onrender.com",
+    origin: "https://webinit-b63b1.web.app",
     // preflightContinue: true,
     credentials: true,
   })
